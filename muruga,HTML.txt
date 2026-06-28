@@ -1,9 +1,9 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sakthi | Portfolio</title>
+<title>G.Sakthi | Portfolio</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
@@ -180,7 +180,7 @@ nav{
 <body>
 
 <nav>
-    <div class="logo">Sakthi</div>
+    <div class="logo">G.Sakthi</div>
 
     <ul>
         <li><a href="#about">About</a></li>
@@ -194,10 +194,10 @@ nav{
 <!-- Hero Section -->
 <div class="hero">
 
-    <img src= "C:/Users/hp/Downloads/profile/img/sakthi.jpeg" alt="Sakthi" class="profile">
+    <img src="profile.jpg" alt="G.Sakthi" class="profile">
 
     <div class="hero-content">
-        <h1>Hi, I'm <span>Sakthi</span></h1>
+        <h1>Hi, I'm <span>G,Sakthi</span></h1>
         <h2>Frontend Developer</h2>
 
         <p>
@@ -218,8 +218,8 @@ nav{
 
 <div class="card">
 <p>
-I am Sakthi, a Frontend Developer and final-year BE student
-specializing in computer science and engineering  at
+I am G.Sakthi, a Frontend Developer and final-year B.Tech student
+specializing in Artificial Intelligence & Data Science at
 Sardar Raja College of Engineering.
 
 I enjoy creating responsive websites and learning
@@ -235,7 +235,7 @@ new technologies to solve real-world problems.
 <h2 class="title">Education</h2>
 
 <div class="card">
-<h3>BE - computer science and engineering</h3>
+<h3>BE - Computer science and engineering</h3>
 <br>
 <p><strong>College:</strong> Sardar Raja College of Engineering</p>
 <p><strong>Status:</strong> Final Year Student</p>
@@ -290,21 +290,413 @@ knowledge sharing, collaboration, and academic support.
 
 <div class="card">
 
-<p><strong>Name:</strong> Sakthi</p>
+<p><strong>Name:</strong> G.Sakthi</p>
 <p><strong>Role:</strong> Frontend Developer</p>
-<p><strong>Email:</strong> 2006gsakthi@gmail.com</p>
-<p><strong>Phone:</strong> +91 9042011017</p>
-<p><strong>GitHub:</strong> https://github.com/2006gsakthi-ux/G.sakthi</p>
-<p><strong>LinkedIn:</strong> https://www.linkedin.com/in/sakthi-sakthi-4593a2357s</p>
+<p><strong>Email:</strong> your-email@gmail.com</p>
+<p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+<p><strong>GitHub:</strong> github.com/yourusername</p>
+<p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
 
 </div>
 
 </section>
 
 <footer>
-<p>© 2026 Sakthi | Frontend Developer</p>
+<p>© 2026 G.Sakthi | Frontend Developer</p>
 </footer>
 
 </body>
 </html>																				<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G.Sakthi | Frontend Developer</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050816;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* Animated Background */
+
+body::before{
+    content:"";
+    position:fixed;
+    width:600px;
+    height:600px;
+    background:#00ffff;
+    border-radius:50%;
+    filter:blur(250px);
+    top:-200px;
+    left:-200px;
+    opacity:.25;
+}
+
+body::after{
+    content:"";
+    position:fixed;
+    width:600px;
+    height:600px;
+    background:#8a2be2;
+    border-radius:50%;
+    filter:blur(250px);
+    bottom:-200px;
+    right:-200px;
+    opacity:.25;
+}
+
+/* Navbar */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    background:rgba(0,0,0,.4);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#00ffff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Hero */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    flex-wrap:wrap;
+    gap:60px;
+}
+
+.profile-img{
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #00ffff;
+    box-shadow:0 0 40px #00ffff;
+}
+
+.hero-content h1{
+    font-size:4rem;
+}
+
+.hero-content h1 span{
+    color:#00ffff;
+}
+
+.hero-content h2{
+    color:#a855f7;
+    margin:10px 0;
+}
+
+.hero-content p{
+    max-width:600px;
+    color:#ddd;
+    margin-top:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    margin-top:20px;
+    margin-right:10px;
+    text-decoration:none;
+    border-radius:30px;
+    color:white;
+    background:linear-gradient(45deg,#00ffff,#8a2be2);
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    color:#00ffff;
+    margin-bottom:40px;
+}
+
+.card{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(15px);
+    padding:30px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+/* Skills */
+
+.skills{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.skill{
+    padding:15px 30px;
+    background:rgba(255,255,255,.08);
+    border-radius:15px;
+    transition:.3s;
+}
+
+.skill:hover{
+    transform:translateY(-8px);
+    background:#00ffff;
+    color:black;
+}
+
+/* Project */
+
+.project-card{
+    text-align:center;
+}
+
+.project-card h3{
+    color:#00ffff;
+    margin-bottom:20px;
+}
+
+/* Contact */
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#00ffff;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:2.5rem;
+}
+
+.profile-img{
+    width:250px;
+    height:250px;
+}
+
+nav{
+    flex-direction:column;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+    <div class="logo > G.Sakthi</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <img src="profile.jpg" alt="G.Sakthi" class="profile-img">
+
+    <div class="hero-content">
+
+        <h1>Hi, I'm <span>G.Sakthi</span></h1>
+
+        <h2>Frontend Developer | AI & DS Student</h2>
+
+        <p>
+            Final Year BE.computer science and engineering  student
+            from Sardar Raja College of Engineering passionate about
+            frontend development, web technologies and AI solutions.
+        </p>
+
+        <a href="#contact" class="btn">Hire Me</a>
+
+        <a href="YOUR_GITHUB_LINK" target="_blank" class="btn">
+            GitHub
+        </a>
+
+        <a href="YOUR_LINKEDIN_LINK" target="_blank" class="btn">
+            LinkedIn
+        </a>
+
+    </div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="card">
+
+<p
+I am G.Sakthi, a Frontend Developer and final year
+B.Tech Artificial Intelligence & Data Science student at
+Sardar Raja College of Engineering.
+
+I enjoy creating modern websites,
+learning new technologies and solving real-world problems
+through software development.
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">Java</div>
+<div class="skill">HTML</div>
+<div class="skill">C++</div>
+<div class="skill">Frontend Development</div>
+
+</div>
+
+</section>
+
+<section id="project">
+
+<h2 class="section-title">Final Year Project</h2>
+
+<div class="card project-card">
+
+<h3>Student Doubt Clear Chatboard</h3>
+
+<p>
+An intelligent platform where students can ask academic
+questions and receive answers efficiently.
+
+The platform improves communication,
+knowledge sharing and academic support among students.
+</p>
+
+<br>
+
+<h4>Technologies Used</h4>
+
+<p>HTML • Python • Java</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Education</h2>
+
+<div class="card">
+
+<h3>B.Tech - Artificial Intelligence & Data Science</h3>
+
+<p>Sardar Raja College of Engineering</p>
+
+<p>Final Year Student</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="card contact">
+
+<h3>G.Sakthi</h3>
+
+<p>Frontend Developer</p>
+
+<p>Email : yourmail@gmail.com</p>
+
+<p>Phone : +91 XXXXX XXXXX</p>
+
+<br>
+
+<p>
+GitHub :
+<a href="YOUR_GITHUB_LINK">
+YOUR_GITHUB_LINK
+</a>
+</p>
+
+<p>
+LinkedIn :
+<a href="YOUR_LINKEDIN_LINK">
+YOUR_LINKEDIN_LINK
+</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 G.Sakthi | Frontend Developer</p>
+
+</footer>
+
+</body>
+</html>
